@@ -42,6 +42,10 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Ignore node_modules in specific folders
+client/node_modules/
+server/node_modules/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
